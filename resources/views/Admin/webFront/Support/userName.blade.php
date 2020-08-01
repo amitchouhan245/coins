@@ -1,0 +1,1 @@
+<a href="{{ $app_url.'users/'.@$data->from_id }}">{{ @$data->fromUser->name }}</a>

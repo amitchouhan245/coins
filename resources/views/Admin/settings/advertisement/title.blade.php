@@ -1,0 +1,1 @@
+<a href="{{ $app_url.'/'.$data->id }}" target="_blank">{{ $data->title }}</a>

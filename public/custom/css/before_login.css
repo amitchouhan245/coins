@@ -1,0 +1,24 @@
+.login-page-bkg{
+      background-image: url("../../../public/uploads/admin/bg.jpg") ;
+      background-position:center;
+      background-size:cover;
+      background-attachment:fixed;
+  }
+.login-page-bkg::after { content: ""; display: block; position: fixed; height: 100%; width: 100%; background: rgba(255,255,255,.9); z-index: 0; left: 0; top: 0; } 
+.login-page-bkg > * { position: relative; z-index: 1; }
+  body{
+      height:auto;
+    }
+  .admin_logo{
+    height: 130px;
+    width:auto;
+  }
+
+.login-box, .register-box {
+	width: 360px;
+	margin: 0% auto;
+	position: fixed !important;
+	left: 50%;
+	margin-left: -180px;
+	top: 10%;
+}

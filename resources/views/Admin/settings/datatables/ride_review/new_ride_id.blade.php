@@ -1,0 +1,1 @@
+<span class="badge bg-info"><a href="{{$app_url.'rides/'.$data->ride_id}}" style="color: white;">{{ $data->ride_id  }}</a></span>
